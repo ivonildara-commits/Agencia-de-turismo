@@ -1,0 +1,8 @@
+{
+  "name": "Cadastro de Agências de Turismo",
+  "description": "Sistema para cadastrar e gerenciar agências de turismo com status de implantação, integrado com Supabase e localStorage de fallback.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
