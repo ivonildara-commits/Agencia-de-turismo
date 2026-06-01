@@ -12,6 +12,7 @@ import StatsSection from './components/StatsSection';
 import AgenciaList from './components/AgenciaList';
 import AgenciaForm from './components/AgenciaForm';
 import SupabaseConfigModal from './components/SupabaseConfigModal';
+import AiChatAssistant from './components/AiChatAssistant';
 
 export default function App() {
   const [agencias, setAgencias] = useState<Agencia[]>([]);
@@ -291,6 +292,9 @@ export default function App() {
         onSubmit={handleCreateOrUpdate}
         editingAgencia={editingAgencia}
       />
+
+      {/* AI Intelligence Assistant agent Chat Widget */}
+      <AiChatAssistant agencias={agencias} />
 
       {/* Humble Footer */}
       <footer className="bg-[#EBEBE3] border-t border-[#D6D6CC] py-6 mt-12 text-xs text-[#7A7A6A]">
